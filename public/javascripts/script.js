@@ -80,8 +80,14 @@ class GameRPS extends RPS {
     }
   }
   refresh(el) {
-    el.classList.toggle('active');
-    this.#reset();
+    if (confirm('Are you sure you want to refresh the game?')) {
+      this.#reset();
+      document.getElementById('player-score').textContent =
+        this.#playerScore = 0;
+      document.getElementById('computer-score').textContent =
+        this.#computerScore = 0;
+      el.classList.toggle('active');
+    }
   }
 }
 
