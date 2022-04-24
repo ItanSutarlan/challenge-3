@@ -3,7 +3,7 @@
 
 # Express
 
-> Rewrite Binar Academy project challenges we did in previous chapters, to become a project using express framework and EJS view engine.
+> Rewrite Binar Academy project challenges I did in previous chapters, to become a project using express framework and EJS view engine.
 
 ## Prerequisites
 
